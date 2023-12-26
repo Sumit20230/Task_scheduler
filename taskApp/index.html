@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="conainer__main">
+        <div class="container">
+            <h1>Task scheduler</h1>
+            <div class="input__container">
+                <label for="taskInput" class="label">task Name:</label>
+                <input type="text" id="taskinput" placeholder="Enter Task">
+                <label for="taskdescription" class="label">task Description:</label>
+                <textarea name="" id="taskdescription" placeholder="text description"></textarea>
+                <label for="taskdate" class="label">task Name:</label>
+                <input type="date" id="taskdate" placeholder="Enter Text">
+                <button onclick=setTask()>add task</button>
+
+            </div>
+            <ul id="taskList"></ul>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+conainer__main{
+    max-width: 600px;
+    margin: 50px;
+    background-color: white;
+    padding: 1.2rem;
+}
+h1{
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 70;
+}
+.input__container{
+    background-color: white;
+    padding: 25px;
+    border-radius: 8px;
+}
+#taskinput,#taskdescription,#taskdate{
+    width: 100%;
+    font-weight: 600;
+    background-color: lightblue;
+    color: white;
+    border:none
+}
+button{
+    margin-top: 12px;
+    padding: 1rem;
+    width: 100%;
+    font-weight: 600;
+    color: red;
+    border: none;
+}
+button::hover{
+    background-color: blue;
+    transition: .3s;
+}
